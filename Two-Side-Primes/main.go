@@ -9,6 +9,9 @@ import (
 	"github.com/gorilla/mux"
 )
 
+//  return an array of all primes smaller than or equal to n. If number is prime mark it as false else true in Array. EX num=15
+//[false false false false true false true false true true true false true false true true]
+
 func sieve(num int) []bool {
 
 	prime := make([]bool, num+1)
