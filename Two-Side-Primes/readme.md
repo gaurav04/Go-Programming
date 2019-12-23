@@ -2,9 +2,14 @@ First Install the go package mux
 ```
 go get -u github.com/gorilla/mux
 ```
+Then run
+```
+go get github.com/gaurav04/Go-Programming/Two-Side-Primes
+```
 
 Start the http server by running the below command  
 ```
+cd $GOPATH/src/github.com/gaurav04/Go-Programming/Two-Side-Primes
 go run main.go
 ```
 
